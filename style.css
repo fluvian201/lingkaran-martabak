@@ -171,18 +171,12 @@ footer ul {
 	}
 
 	.achv-box-content {
-		padding-top: 20px;
 		flex-direction: column;
-		position: initial;
 	}
 
 	.achv-box {
 		margin-right: 0px;
 		margin-bottom: 20px;
-	}
-
-	.achievement-section h2 {
-		padding-top: 20px;
 	}
 
 	.achv-number-content {
