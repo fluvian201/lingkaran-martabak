@@ -88,6 +88,9 @@ span:hover {
 .achievement-section {
 	background-color: black;
 	text-align: center;
+}
+
+.achievement-section .container {
 	position: relative;
 }
 
@@ -109,7 +112,8 @@ span:hover {
 
 .achv-box-content {
 	position: absolute;
-	bottom: 280px;
+	width: 100%;
+	bottom: 260px;
 }
 
 .achv-box-content p{
@@ -154,6 +158,7 @@ footer ul {
 	.achievement-section h2 {
 		padding-top: 20px;
 	}
+
 }
 
 @media (max-width: 768px) {
