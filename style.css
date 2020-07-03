@@ -146,7 +146,14 @@ footer ul {
 }
 
 @media (max-width: 992px) {
+	.achv-box-content {
+		padding-top: 20px;
+		position: initial;
+	}
 
+	.achievement-section h2 {
+		padding-top: 20px;
+	}
 }
 
 @media (max-width: 768px) {
