@@ -1,5 +1,6 @@
 html {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Cabin', sans-serif, 'Pacifico', cursive;
+	background-color: #fdd400;
 }
 
 body {
@@ -18,6 +19,8 @@ a {
 
 .header-wrapper {
 	height: 120px;
+	background-image: url("milk.png");
+	background-size: contain;
 }
 
 .container {
@@ -26,20 +29,23 @@ a {
 }
 
 .logo {
-	font-size: 30px;
-	float: left;
+	font-size: 300%;
+	float: right;
+	font-family: 'Bebas Neue';
 }
 
+
+
 span {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 5px;
 	margin-right: 5px;
 	transition: all 0.5s;
 }
 
 span:hover {
-	background-color: white;
+	background-color: #fdd400;
 	color: black;
 	padding: 0px;
 	margin: 0px;
@@ -58,10 +64,11 @@ span:hover {
 
 .main-header {
 	margin-top: 60px;
-	background-image: url("curve.svg");
+	background-image: url("mm.png");
 	background-repeat: no-repeat;
 	background-position: 80%;
 	background-size: contain;
+	padding-top: 5%;
 }
 
 .header-content {
@@ -74,6 +81,11 @@ span:hover {
 	margin-bottom: 40px;
 }
 
+.header-content h1 {
+	font-family: 'Pacifico', cursive;
+	text-shadow: -5px 5px white;
+}
+
 .btn {
 	background-color: black;
 	padding: 5px 12px;
@@ -81,13 +93,32 @@ span:hover {
 	transition: all 0.5s;
 }
 
+.rdo {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 12px;
+	width: 40%;
+}
+
+.rdo li:nth-child(1) {
+	color: #6f933c;
+}
+
+.rdo li:nth-child(3) {
+	color: #c62e2f;
+}
+
+
 .btn:hover {
 	background-color: rgba(0,0,0,0.6);
 }
 
 .achievement-section {
-	background-color: black;
+	background-color: #e9e9e9;
 	text-align: center;
+	padding:5vw 0 0 0;
+	margin-bottom: 0;
 }
 
 .achievement-section .container {
@@ -95,7 +126,7 @@ span:hover {
 }
 
 .achievement-section h2, .achievement-section p {
-	color: white;
+	color: black;
 }
 
 .achievement-section h2 {
@@ -104,6 +135,7 @@ span:hover {
 
 .achv-box-content, .achv-number-content{
 	display: flex;
+	
 }
 
 .achv-number-content {
@@ -111,9 +143,7 @@ span:hover {
 }
 
 .achv-box-content {
-	position: absolute;
-	width: 100%;
-	bottom: 260px;
+	margin-left: 40vw;
 }
 
 .achv-box-content p{
@@ -122,6 +152,7 @@ span:hover {
 
 .achv-box {
 	flex: auto;
+	
 	background-color: white;
 	margin-right: 20px;
 	padding: 12px 10px;
@@ -139,6 +170,21 @@ span:hover {
 .start-section {
 	text-align: center;
 	padding: 60px 0px;
+}
+
+.martabak-2 {
+	width: 80%;
+  height: auto;
+  max-width: 400px;
+  position: absolute;
+  right: 55vw;
+  bottom: 0vw;
+}
+.blank-space {
+	background-color: #b1b2b1;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 footer {
@@ -177,6 +223,7 @@ footer ul {
 
 	.achv-box-content {
 		flex-direction: column;
+		margin-left: 0;
 	}
 
 	.achv-box {
@@ -186,5 +233,12 @@ footer ul {
 
 	.achv-number-content {
 		flex-direction: column;
+		
 	}
+
+	.martabak-2 {
+		position: initial;
+	}
+
+	
 }
