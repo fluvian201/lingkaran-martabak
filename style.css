@@ -232,21 +232,10 @@ footer ul {
 	float: right;
 }
 
-@media (max-width: 992px) {
-	.achv-box-content {
-		padding-top: 20px;
-		position: initial;
-	}
-
-	.achievement-section h2 {
-		padding-top: 20px;
-	}
-
-}
-
 @media (max-width: 768px) {
 	.main-header {
 		background-size: 60%;
+		font-size: 3vw;
 	}
 	.achievement-section p {
 		font-size: 12px;
@@ -260,6 +249,7 @@ footer ul {
 	.achv-box {
 		margin-right: 0px;
 		margin-bottom: 20px;
+		font-size: 3vw;
 	}
 
 	.achv-number-content {
@@ -269,6 +259,24 @@ footer ul {
 
 	.martabak-2 {
 		position: initial;
+		max-width: 40vw;
+	}
+
+	.vid {
+		max-width: 65vw;
+	}
+
+	.rumus-box {
+		font-size: 2vw;
+	}
+
+	.start-section-content {
+		flex-direction: column;
+	}
+
+	.martabak-3 {
+		margin: 0 auto;
+		max-width: 40vw;
 	}
 }
 
