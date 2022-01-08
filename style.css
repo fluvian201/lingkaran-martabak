@@ -64,12 +64,12 @@ span:hover {
 
 .main-header {
 	margin-top: 60px;
-	background-image: url("mm.png");
-	background-repeat: no-repeat;
-	background-position: 80%;
-	background-size: contain;
 	padding-top: 5%;
 	font-size: 1.6vw;
+}
+
+.main-header .container {
+	display: flex;
 }
 
 .header-content {
@@ -204,6 +204,13 @@ span:hover {
   right: 55vw;
   bottom: 0vw;
 }
+
+.vid {
+	width: 180%;
+  height: auto;
+  max-width: 40vw;
+}
+
 .martabak-3 {
 	width: 80%;
 	height: auto;
