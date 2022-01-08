@@ -241,8 +241,27 @@ footer ul {
 	.main-header {
 		background-size: 60%;
 	}
+	.achievement-section p {
+		font-size: 12px;
+	}
+
 	.achv-box-content {
-		bottom: 320px;
+		flex-direction: column;
+		margin-left: 0;
+	}
+
+	.achv-box {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	.achv-number-content {
+		flex-direction: column;
+		
+	}
+
+	.martabak-2 {
+		position: initial;
 	}
 }
 
